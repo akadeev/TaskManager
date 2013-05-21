@@ -1,4 +1,12 @@
 TaskManager::Application.routes.draw do
+  resources :users
+  resources :sessions
+
+  root :to => "users#index"
+
+  get 'login' => 'sessions#create'
+  get 'logout' => 'sessions#destroy'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
