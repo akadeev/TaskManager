@@ -11,6 +11,14 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 #test:
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: db/test
+  host: localhost
+  pool: 5
+  username: dev
+  password: pg_password
 
 production:
   adapter: postgresql
