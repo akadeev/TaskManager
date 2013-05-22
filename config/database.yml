@@ -2,9 +2,8 @@ development:
   adapter: postgresql
   encoding: unicode
   database: task_development
+  username: postgres
   pool: 5
-  username: dev
-  password: pg_password
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -13,14 +12,5 @@ test:
   adapter: postgresql
   encoding: unicode
   database: task_test
+  username: postgres
   pool: 5
-  username: dev
-  password: pg_password
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: task_production
-  pool: 5
-  username: dev
-  password: pg_password
