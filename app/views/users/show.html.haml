@@ -7,9 +7,9 @@
   %br
   = @user.email
 %p
-  %strong= model_class.human_attribute_name(:password_digest) + ':'
+  %strong= model_class.human_attribute_name(:password) + ':'
   %br
-  = @user.password_digest
+  = @user.password
 
 .form-actions
   = link_to t('.back', :default => t("helpers.links.back")), users_path, :class => 'btn'
