@@ -1,8 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: db/development
-  host: localhost
+  database: task_development
   pool: 5
   username: dev
   password: pg_password
@@ -13,8 +12,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: db/test
-  host: localhost
+  database: task_test
   pool: 5
   username: dev
   password: pg_password
@@ -22,8 +20,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: db/production
-  host: localhost
+  database: task_production
   pool: 5
   username: dev
   password: pg_password
