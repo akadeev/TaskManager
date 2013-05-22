@@ -13,6 +13,7 @@ gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'less-rails'
 gem 'therubyracer'
+gem 'coveralls', require: false
 
 # Gems used only for assets and not required
 # in production environments by default.
