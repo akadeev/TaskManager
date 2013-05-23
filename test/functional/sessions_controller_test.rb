@@ -4,7 +4,7 @@ class SessionsControllerTest < ActionController::TestCase
 	include AuthHelper
 
 	setup do
-		@user = User.create(email: "test", password: "test", password_confirmation: "test")
+		@user = create :user
 	end
   
   	test "should get new" do
