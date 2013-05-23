@@ -1,31 +1,27 @@
 require 'test_helper'
 
 class SessionsControllerTest < ActionController::TestCase
-  setup do
-  	raise 'asfsg'
-  	return
-    @user = create :user
-  end
+	include AuthHelper
 
-  test "should authenticate" do
-    attrs = { email: @user.email, password: @user.password }
+	setup do
+		@user = create :user
+	end
+  
+  	test "should get new" do
+    	get :new
+    	assert_response :success
+  	end
 
-    post :create, user_sign_in_type: attrs
-    assert_response :redirect
-    assert signed_in?
-  end
+	test "log in" do
+		post :create, {email: @user.email, password: "test"}
+		assert_response :redirect
+		assert signed_in?
+	end
 
-  test "should get new" do
-    get :new
-    assert_response :success
-  end
-
-  test "should delete destroy" do
-    sign_in @user
-
-    delete :destroy
-
-    assert_response :redirect
-    assert !signed_in?
-  end
+	test "should delete destroy" do
+		sign_in @user
+	    delete :destroy, id: @user.id
+	    assert_response :redirect
+	    assert !signed_in?
+	end
 end

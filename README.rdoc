@@ -1,3 +1,7 @@
+{<img src="https://travis-ci.org/akadeev/TaskManager.png?branch=develop" alt="Build Status" />}[https://travis-ci.org/akadeev/TaskManager]
+{<img src="https://coveralls.io/repos/akadeev/TaskManager/badge.png?branch=develop" alt="Coverage Status" />}[https://coveralls.io/r/akadeev/TaskManager?branch=develop]
+{<img src="https://codeclimate.com/github/akadeev/TaskManager.png" />}[https://codeclimate.com/github/akadeev/TaskManager]
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create

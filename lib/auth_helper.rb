@@ -17,7 +17,7 @@ module AuthHelper
 
   def authenticate_user!
     unless signed_in?
-      redirect_to login_url
+      redirect_to :new_session
     end
   end
 end
