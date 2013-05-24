@@ -2,7 +2,10 @@
 
 FactoryGirl.define do
   factory :task do
-    title "MyString"
-    description "MyString"
+    owner_id User.first.id
+    performer_id User.first.id
+    state "asf"
+    title "sdga"
+    description "MyText"
   end
 end
