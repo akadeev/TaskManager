@@ -19,11 +19,15 @@ class TasksControllerTest < ActionController::TestCase
   end
 
   test "should create task" do
-    assert_difference('Task.count') do
-      post :create, { description: @task.description, owner_id: @task.owner_id, performer_id: @task.performer_id, state: @task.state, title: @task.title }
-    end
+    task = build :task
 
+    assert_difference('Task.count') do
+      post :create, task: {description: task.description, owner_id: task.owner_id, performer_id: task.performer_id, state: task.state, title: task.title}
+    end
     assert_response :redirect
+
+    task = Task.find_by_title(task.title)
+    assert_not_nil task
   end
 
   test "should show task" do
@@ -32,20 +36,26 @@ class TasksControllerTest < ActionController::TestCase
   end
 
   test "should get edit" do
-    get :edit, id: @task
+    get :edit, id: @task.id
     assert_response :success
   end
 
   test "should update task" do
-    put :update, id: @task, task: { description: @task.description, owner_id: @task.owner_id, performer_id: @task.performer_id, state: @task.state, title: @task.title }
+    task = build :task
+
+    put :update, id: @task.id, task: { description: task.description, owner_id: task.owner_id, performer_id: task.performer_id, state: task.state, title: task.title }
     assert_response :redirect
+
+    @task.reload
+    assert_equal task.title, @task.title
   end
 
   test "should destroy task" do
     assert_difference('Task.count', -1) do
-      delete :destroy, id: @task
+      delete :destroy, id: @task.id
     end
-
     assert_response :redirect
+
+    assert !Task.exists?(@user)
   end
 end
