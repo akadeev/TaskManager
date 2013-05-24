@@ -1,0 +1,646 @@
+# Logfile created on 2013-05-22 19:58:46 +0000 by logger.rb/31641
+[05/22/13 19:58:46 +0000 precise32 (9336)] INFO : Starting the New Relic agent in "development" environment.
+[05/22/13 19:58:46 +0000 precise32 (9336)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/22/13 19:58:46 +0000 precise32 (9336)] INFO : Reading configuration from newrelic.yml
+[05/22/13 19:58:46 +0000 precise32 (9336)] INFO : Environment: development
+[05/22/13 19:58:46 +0000 precise32 (9336)] INFO : Dispatcher: unicorn
+[05/22/13 19:58:46 +0000 precise32 (9336)] INFO : Application: My Application
+[05/22/13 19:58:46 +0000 precise32 (9336)] WARN : Agent configured not to send data in this environment.
+[05/22/13 19:58:47 +0000 precise32 (9336)] INFO : Installing ActiveRecord instrumentation
+[05/22/13 19:58:47 +0000 precise32 (9336)] INFO : Installing Net instrumentation
+[05/22/13 19:58:47 +0000 precise32 (9336)] INFO : Installing Unicorn instrumentation
+[05/22/13 19:58:47 +0000 precise32 (9336)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/22/13 19:58:47 +0000 precise32 (9336)] INFO : Installing Rails3 Error instrumentation
+[05/22/13 19:58:47 +0000 precise32 (9336)] INFO : Installing Rails 3 Controller instrumentation
+[05/22/13 19:58:47 +0000 precise32 (9336)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/22/13 19:58:47 +0000 precise32 (9336)] INFO : Finished instrumentation
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Reading configuration from newrelic.yml
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Environment: development
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : No known dispatcher detected.
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Application: My Application
+[05/23/13 07:54:17 +0000 precise32 (10182)] WARN : Agent configured not to send data in this environment.
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Installing Net instrumentation
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Installing Unicorn instrumentation
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 07:54:17 +0000 precise32 (10182)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 07:54:18 +0000 precise32 (10182)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 07:54:18 +0000 precise32 (10182)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 07:54:18 +0000 precise32 (10182)] INFO : Finished instrumentation
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Reading configuration from newrelic.yml
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Environment: development
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Dispatcher: unicorn
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Application: My Application
+[05/23/13 07:59:03 +0000 precise32 (10244)] WARN : Agent configured not to send data in this environment.
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Installing Net instrumentation
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Installing Unicorn instrumentation
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 07:59:03 +0000 precise32 (10244)] INFO : Finished instrumentation
+[05/23/13 08:00:29 +0000 precise32 (10256)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 08:00:29 +0000 precise32 (10256)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 08:00:29 +0000 precise32 (10256)] INFO : Reading configuration from newrelic.yml
+[05/23/13 08:00:29 +0000 precise32 (10256)] INFO : Environment: development
+[05/23/13 08:00:29 +0000 precise32 (10256)] INFO : No known dispatcher detected.
+[05/23/13 08:00:29 +0000 precise32 (10256)] INFO : Application: My Application
+[05/23/13 08:00:29 +0000 precise32 (10256)] WARN : Agent configured not to send data in this environment.
+[05/23/13 08:00:30 +0000 precise32 (10256)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 08:00:30 +0000 precise32 (10256)] INFO : Installing Net instrumentation
+[05/23/13 08:00:30 +0000 precise32 (10256)] INFO : Installing Unicorn instrumentation
+[05/23/13 08:00:30 +0000 precise32 (10256)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 08:00:30 +0000 precise32 (10256)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 08:00:30 +0000 precise32 (10256)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 08:00:30 +0000 precise32 (10256)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 08:00:30 +0000 precise32 (10256)] INFO : Finished instrumentation
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Reading configuration from newrelic.yml
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Environment: development
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Dispatcher: unicorn
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Application: My Application
+[05/23/13 08:01:02 +0000 precise32 (10272)] WARN : Agent configured not to send data in this environment.
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Installing Net instrumentation
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Installing Unicorn instrumentation
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 08:01:02 +0000 precise32 (10272)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 08:01:03 +0000 precise32 (10272)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 08:01:03 +0000 precise32 (10272)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 08:01:03 +0000 precise32 (10272)] INFO : Finished instrumentation
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Reading configuration from newrelic.yml
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Environment: development
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Dispatcher: unicorn
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Application: My Application
+[05/23/13 08:04:30 +0000 precise32 (10293)] WARN : Agent configured not to send data in this environment.
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Installing Net instrumentation
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Installing Unicorn instrumentation
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 08:04:30 +0000 precise32 (10293)] INFO : Finished instrumentation
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Reading configuration from newrelic.yml
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Environment: development
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Dispatcher: unicorn
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Application: My Application
+[05/23/13 08:07:44 +0000 precise32 (10313)] WARN : Agent configured not to send data in this environment.
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Installing Net instrumentation
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Installing Unicorn instrumentation
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 08:07:44 +0000 precise32 (10313)] INFO : Finished instrumentation
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Reading configuration from newrelic.yml
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Environment: development
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Dispatcher: unicorn
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Application: My Application
+[05/23/13 12:49:40 +0000 precise32 (11624)] WARN : Agent configured not to send data in this environment.
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Installing Net instrumentation
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Installing Unicorn instrumentation
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 12:49:40 +0000 precise32 (11624)] INFO : Finished instrumentation
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Environment: development
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Dispatcher: unicorn
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Application: My Application
+[05/23/13 13:00:40 +0000 precise32 (11688)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Installing Net instrumentation
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:00:40 +0000 precise32 (11688)] INFO : Finished instrumentation
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Environment: development
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Dispatcher: unicorn
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Application: My Application
+[05/23/13 13:01:54 +0000 precise32 (11702)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Installing Net instrumentation
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:01:54 +0000 precise32 (11702)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:01:55 +0000 precise32 (11702)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:01:55 +0000 precise32 (11702)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:01:55 +0000 precise32 (11702)] INFO : Finished instrumentation
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Environment: development
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Dispatcher: unicorn
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Application: My Application
+[05/23/13 13:03:10 +0000 precise32 (11715)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Installing Net instrumentation
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:03:10 +0000 precise32 (11715)] INFO : Finished instrumentation
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Environment: development
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Dispatcher: unicorn
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Application: My Application
+[05/23/13 13:05:38 +0000 precise32 (11734)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Installing Net instrumentation
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:05:38 +0000 precise32 (11734)] INFO : Finished instrumentation
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Environment: development
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Dispatcher: unicorn
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Application: My Application
+[05/23/13 13:06:16 +0000 precise32 (11745)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Installing Net instrumentation
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:06:16 +0000 precise32 (11745)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:06:17 +0000 precise32 (11745)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:06:17 +0000 precise32 (11745)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:06:17 +0000 precise32 (11745)] INFO : Finished instrumentation
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Environment: development
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Dispatcher: unicorn
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Application: My Application
+[05/23/13 13:08:49 +0000 precise32 (11840)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Installing Net instrumentation
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:08:49 +0000 precise32 (11840)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:08:50 +0000 precise32 (11840)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:08:50 +0000 precise32 (11840)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:08:50 +0000 precise32 (11840)] INFO : Finished instrumentation
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Environment: development
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Dispatcher: unicorn
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Application: My Application
+[05/23/13 13:09:17 +0000 precise32 (11850)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Installing Net instrumentation
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:09:17 +0000 precise32 (11850)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:09:18 +0000 precise32 (11850)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:09:18 +0000 precise32 (11850)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:09:18 +0000 precise32 (11850)] INFO : Finished instrumentation
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Environment: development
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Dispatcher: unicorn
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Application: My Application
+[05/23/13 13:15:57 +0000 precise32 (11891)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Installing Net instrumentation
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:15:57 +0000 precise32 (11891)] INFO : Finished instrumentation
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Environment: development
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Dispatcher: unicorn
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Application: My Application
+[05/23/13 13:16:45 +0000 precise32 (11903)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Installing Net instrumentation
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:16:45 +0000 precise32 (11903)] INFO : Finished instrumentation
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Environment: development
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Dispatcher: unicorn
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Application: My Application
+[05/23/13 13:17:54 +0000 precise32 (11919)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Installing Net instrumentation
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:17:54 +0000 precise32 (11919)] INFO : Finished instrumentation
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Environment: development
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Dispatcher: unicorn
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Application: My Application
+[05/23/13 13:41:25 +0000 precise32 (12048)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Installing Net instrumentation
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:41:25 +0000 precise32 (12048)] INFO : Finished instrumentation
+[05/23/13 13:48:09 +0000 precise32 (12090)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:48:09 +0000 precise32 (12090)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:48:09 +0000 precise32 (12090)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:48:09 +0000 precise32 (12090)] INFO : Environment: development
+[05/23/13 13:48:09 +0000 precise32 (12090)] INFO : No known dispatcher detected.
+[05/23/13 13:48:09 +0000 precise32 (12090)] INFO : Application: My Application
+[05/23/13 13:48:09 +0000 precise32 (12090)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:48:10 +0000 precise32 (12090)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:48:10 +0000 precise32 (12090)] INFO : Installing Net instrumentation
+[05/23/13 13:48:10 +0000 precise32 (12090)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:48:10 +0000 precise32 (12090)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:48:10 +0000 precise32 (12090)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:48:10 +0000 precise32 (12090)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:48:10 +0000 precise32 (12090)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:48:10 +0000 precise32 (12090)] INFO : Finished instrumentation
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Reading configuration from newrelic.yml
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Environment: development
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : No known dispatcher detected.
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Application: My Application
+[05/23/13 13:49:15 +0000 precise32 (12111)] WARN : Agent configured not to send data in this environment.
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Installing Net instrumentation
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Installing Unicorn instrumentation
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 13:49:15 +0000 precise32 (12111)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 13:49:16 +0000 precise32 (12111)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 13:49:16 +0000 precise32 (12111)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 13:49:16 +0000 precise32 (12111)] INFO : Finished instrumentation
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Environment: development
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : No known dispatcher detected.
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Application: My Application
+[05/23/13 14:00:15 +0000 precise32 (12220)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Installing Net instrumentation
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:00:15 +0000 precise32 (12220)] INFO : Finished instrumentation
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Environment: development
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : No known dispatcher detected.
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Application: My Application
+[05/23/13 14:00:29 +0000 precise32 (12227)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Installing Net instrumentation
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:00:29 +0000 precise32 (12227)] INFO : Finished instrumentation
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Environment: development
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : No known dispatcher detected.
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Application: My Application
+[05/23/13 14:01:37 +0000 precise32 (12237)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Installing Net instrumentation
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:01:37 +0000 precise32 (12237)] INFO : Finished instrumentation
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Environment: development
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : No known dispatcher detected.
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Application: My Application
+[05/23/13 14:01:46 +0000 precise32 (12242)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Installing Net instrumentation
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:01:46 +0000 precise32 (12242)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:01:47 +0000 precise32 (12242)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:01:47 +0000 precise32 (12242)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:01:47 +0000 precise32 (12242)] INFO : Finished instrumentation
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Environment: development
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : No known dispatcher detected.
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Application: My Application
+[05/23/13 14:15:26 +0000 precise32 (12305)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Installing Net instrumentation
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:15:26 +0000 precise32 (12305)] INFO : Finished instrumentation
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Environment: development
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : No known dispatcher detected.
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Application: My Application
+[05/23/13 14:18:45 +0000 precise32 (12326)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Installing Net instrumentation
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:18:45 +0000 precise32 (12326)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:18:46 +0000 precise32 (12326)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:18:46 +0000 precise32 (12326)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:18:46 +0000 precise32 (12326)] INFO : Finished instrumentation
+[05/23/13 14:19:56 +0000 precise32 (12336)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:19:56 +0000 precise32 (12336)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:19:56 +0000 precise32 (12336)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Environment: development
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : No known dispatcher detected.
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Application: My Application
+[05/23/13 14:19:57 +0000 precise32 (12336)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Installing Net instrumentation
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:19:57 +0000 precise32 (12336)] INFO : Finished instrumentation
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Environment: development
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : No known dispatcher detected.
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Application: My Application
+[05/23/13 14:21:54 +0000 precise32 (12363)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Installing Net instrumentation
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:21:54 +0000 precise32 (12363)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:21:55 +0000 precise32 (12363)] INFO : Finished instrumentation
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Environment: development
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : No known dispatcher detected.
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Application: My Application
+[05/23/13 14:22:31 +0000 precise32 (12370)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Installing Net instrumentation
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:22:31 +0000 precise32 (12370)] INFO : Finished instrumentation
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Environment: development
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : No known dispatcher detected.
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Application: My Application
+[05/23/13 14:22:49 +0000 precise32 (12376)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Installing Net instrumentation
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:22:49 +0000 precise32 (12376)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:22:50 +0000 precise32 (12376)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:22:50 +0000 precise32 (12376)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:22:50 +0000 precise32 (12376)] INFO : Finished instrumentation
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Environment: development
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : No known dispatcher detected.
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Application: My Application
+[05/23/13 14:25:03 +0000 precise32 (12390)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Installing Net instrumentation
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:25:03 +0000 precise32 (12390)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:25:04 +0000 precise32 (12390)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:25:04 +0000 precise32 (12390)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:25:04 +0000 precise32 (12390)] INFO : Finished instrumentation
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Environment: development
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Dispatcher: unicorn
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Application: My Application
+[05/23/13 14:34:12 +0000 precise32 (12476)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Installing Net instrumentation
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:34:12 +0000 precise32 (12476)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:34:13 +0000 precise32 (12476)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:34:13 +0000 precise32 (12476)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:34:13 +0000 precise32 (12476)] INFO : Finished instrumentation
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Reading configuration from newrelic.yml
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Environment: development
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Dispatcher: unicorn
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Application: My Application
+[05/23/13 14:36:05 +0000 precise32 (12490)] WARN : Agent configured not to send data in this environment.
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Installing Net instrumentation
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Installing Unicorn instrumentation
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 14:36:05 +0000 precise32 (12490)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 14:36:06 +0000 precise32 (12490)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 14:36:06 +0000 precise32 (12490)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 14:36:06 +0000 precise32 (12490)] INFO : Finished instrumentation
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Reading configuration from newrelic.yml
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Environment: development
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : No known dispatcher detected.
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Application: My Application
+[05/23/13 16:51:40 +0000 precise32 (12588)] WARN : Agent configured not to send data in this environment.
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Installing Net instrumentation
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Installing Unicorn instrumentation
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 16:51:40 +0000 precise32 (12588)] INFO : Finished instrumentation
+[05/23/13 16:51:46 +0000 precise32 (12598)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 16:51:46 +0000 precise32 (12598)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 16:51:46 +0000 precise32 (12598)] INFO : Reading configuration from newrelic.yml
+[05/23/13 16:51:46 +0000 precise32 (12598)] INFO : Environment: development
+[05/23/13 16:51:46 +0000 precise32 (12598)] INFO : No known dispatcher detected.
+[05/23/13 16:51:46 +0000 precise32 (12598)] INFO : Application: My Application
+[05/23/13 16:51:46 +0000 precise32 (12598)] WARN : Agent configured not to send data in this environment.
+[05/23/13 16:51:47 +0000 precise32 (12598)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 16:51:47 +0000 precise32 (12598)] INFO : Installing Net instrumentation
+[05/23/13 16:51:47 +0000 precise32 (12598)] INFO : Installing Unicorn instrumentation
+[05/23/13 16:51:47 +0000 precise32 (12598)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 16:51:47 +0000 precise32 (12598)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 16:51:47 +0000 precise32 (12598)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 16:51:47 +0000 precise32 (12598)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 16:51:47 +0000 precise32 (12598)] INFO : Finished instrumentation
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Reading configuration from newrelic.yml
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Environment: development
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Dispatcher: unicorn
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Application: My Application
+[05/23/13 21:22:11 +0000 precise32 (1440)] WARN : Agent configured not to send data in this environment.
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Installing Net instrumentation
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Installing Unicorn instrumentation
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 21:22:11 +0000 precise32 (1440)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 21:22:12 +0000 precise32 (1440)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 21:22:12 +0000 precise32 (1440)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 21:22:12 +0000 precise32 (1440)] INFO : Finished instrumentation
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Reading configuration from newrelic.yml
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Environment: development
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : No known dispatcher detected.
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Application: My Application
+[05/23/13 21:43:42 +0000 precise32 (1587)] WARN : Agent configured not to send data in this environment.
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Installing Net instrumentation
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Installing Unicorn instrumentation
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 21:43:42 +0000 precise32 (1587)] INFO : Finished instrumentation
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Reading configuration from newrelic.yml
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Environment: development
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : No known dispatcher detected.
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Application: My Application
+[05/23/13 21:44:37 +0000 precise32 (1594)] WARN : Agent configured not to send data in this environment.
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Installing Net instrumentation
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Installing Unicorn instrumentation
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 21:44:37 +0000 precise32 (1594)] INFO : Finished instrumentation
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Reading configuration from newrelic.yml
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Environment: development
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Dispatcher: unicorn
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Application: My Application
+[05/23/13 22:23:02 +0000 precise32 (1697)] WARN : Agent configured not to send data in this environment.
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Installing Net instrumentation
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Installing Unicorn instrumentation
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 22:23:02 +0000 precise32 (1697)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 22:23:03 +0000 precise32 (1697)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 22:23:03 +0000 precise32 (1697)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 22:23:03 +0000 precise32 (1697)] INFO : Finished instrumentation
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Starting the New Relic agent in "development" environment.
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Reading configuration from newrelic.yml
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Environment: development
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Dispatcher: unicorn
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Application: My Application
+[05/23/13 22:23:54 +0000 precise32 (1705)] WARN : Agent configured not to send data in this environment.
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Installing ActiveRecord instrumentation
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Installing Net instrumentation
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Installing Unicorn instrumentation
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Installing Rails3 Error instrumentation
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Installing Rails 3 Controller instrumentation
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/23/13 22:23:54 +0000 precise32 (1705)] INFO : Finished instrumentation
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Starting the New Relic agent in "development" environment.
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Reading configuration from newrelic.yml
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Environment: development
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Dispatcher: unicorn
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Application: My Application
+[05/24/13 07:03:31 +0000 precise32 (1912)] WARN : Agent configured not to send data in this environment.
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Installing ActiveRecord instrumentation
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Installing Net instrumentation
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Installing Unicorn instrumentation
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Installing Rails3 Error instrumentation
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Installing Rails 3 Controller instrumentation
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/24/13 07:03:31 +0000 precise32 (1912)] INFO : Finished instrumentation
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Starting the New Relic agent in "development" environment.
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Reading configuration from newrelic.yml
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Environment: development
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Dispatcher: unicorn
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Application: My Application
+[05/24/13 07:47:24 +0000 precise32 (2172)] WARN : Agent configured not to send data in this environment.
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Installing ActiveRecord instrumentation
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Installing Net instrumentation
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Installing Unicorn instrumentation
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[05/24/13 07:47:24 +0000 precise32 (2172)] INFO : Installing Rails3 Error instrumentation
+[05/24/13 07:47:25 +0000 precise32 (2172)] INFO : Installing Rails 3 Controller instrumentation
+[05/24/13 07:47:25 +0000 precise32 (2172)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/24/13 07:47:25 +0000 precise32 (2172)] INFO : Finished instrumentation
