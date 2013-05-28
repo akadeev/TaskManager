@@ -22,7 +22,7 @@ class TasksControllerTest < ActionController::TestCase
     task = build :task
 
     assert_difference('Task.count') do
-      post :create, task: {description: task.description, owner_id: task.owner_id, performer_id: task.performer_id, state: task.state, title: task.title}
+      post :create, task: {description: task.description, owner_id: task.owner_id, performer_id: task.performer_id, title: task.title}
     end
     assert_response :redirect
 
@@ -43,7 +43,7 @@ class TasksControllerTest < ActionController::TestCase
   test "should update task" do
     task = build :task
 
-    put :update, id: @task.id, task: { description: task.description, owner_id: task.owner_id, performer_id: task.performer_id, state: task.state, title: task.title }
+    put :update, id: @task.id, task: { description: task.description, owner_id: task.owner_id, performer_id: task.performer_id, title: task.title }
     assert_response :redirect
 
     @task.reload
