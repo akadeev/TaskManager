@@ -17,15 +17,13 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should create user" do
-    user = build :user
-
-    assert_difference('User.count') do
-      post :create, user: { password: "test", email: user.email }
-    end
+    attrs = attributes_for :user
+    
+    post :create, user: attrs
     assert_response :redirect
 
-    user = User.find_by_email(user.email)
-    assert_not_nil user
+    user = User.find_by_email(attrs[:email])
+    assert user
   end
 
   test "should show user" do
@@ -39,13 +37,13 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should update user" do
-    user = build :user
+    attrs = attributes_for :user
 
-    put :update, id: @user.id, user: { password: "test", email: user.email }
+    put :update, id: @user.id, user: attrs
     assert_response :redirect
 
     @user.reload
-    assert_equal user.email, @user.email
+    assert_equal attrs[:email], @user.email
   end
 
   test "should destroy user" do

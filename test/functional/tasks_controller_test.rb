@@ -19,15 +19,13 @@ class TasksControllerTest < ActionController::TestCase
   end
 
   test "should create task" do
-    task = build :task
+    attrs = attributes_for :task
 
-    assert_difference('Task.count') do
-      post :create, task: {description: task.description, owner_id: task.owner_id, performer_id: task.performer_id, title: task.title}
-    end
+    post :create, task: attrs
     assert_response :redirect
 
-    task = Task.find_by_title(task.title)
-    assert_not_nil task
+    task = Task.find_by_title(attrs[:title])
+    assert task
   end
 
   test "should show task" do
@@ -41,13 +39,13 @@ class TasksControllerTest < ActionController::TestCase
   end
 
   test "should update task" do
-    task = build :task
+    attrs = attributes_for :task
 
-    put :update, id: @task.id, task: { description: task.description, owner_id: task.owner_id, performer_id: task.performer_id, title: task.title }
+    put :update, id: @task.id, task: attrs
     assert_response :redirect
 
     @task.reload
-    assert_equal task.title, @task.title
+    assert_equal attrs[:title], @task.title
   end
 
   test "should destroy task" do
