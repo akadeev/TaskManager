@@ -41,4 +41,11 @@ class TasksController < ApplicationController
     @task.destroy
     redirect_to tasks_url
   end
+
+  def action
+    event = params[:event]
+    task = Task.find(params[:id])
+    task.fire_state_event event
+    redirect_to root
+  end
 end
