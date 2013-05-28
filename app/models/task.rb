@@ -1,4 +1,4 @@
-class Task < ActiveRecord::Base
+  class Task < ActiveRecord::Base
   attr_accessible :description, :title, :description, :owner_id, :performer_id
    
   belongs_to :owner, class_name: "User"
