@@ -1,3 +1,5 @@
+require 'test_helper'
+
 class CommentsControllerTest < ActionController::TestCase
   setup do
     @request.env['HTTP_REFERER'] = root_path # Set up referer for redirecting to :back in Testing mode
