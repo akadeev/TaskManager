@@ -29,7 +29,7 @@ class TasksController < ApplicationController
     @task = Task.find(params[:id])
 
     if @task.update_attributes(params[:task])
-      redirect_to @task, notice: 'Task was successfully updated.'
+      redirect_to root_path, notice: 'Task was successfully updated.'
     else
       render action: "edit"
     end
@@ -40,12 +40,5 @@ class TasksController < ApplicationController
     
     @task.destroy
     redirect_to tasks_url
-  end
-
-  def action
-    event = params[:event]
-    task = Task.find(params[:id])
-    task.fire_state_event event
-    redirect_to root
   end
 end
