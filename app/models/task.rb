@@ -3,6 +3,7 @@
    
   belongs_to :owner, class_name: "User"
   belongs_to :performer, class_name: "User"
+  has_many :comments
 
   state_machine :initial => :new do
     state :new

@@ -22,6 +22,24 @@
   %strong= model_class.human_attribute_name(:description) + ':'
   %br
   = @task.description
+  
+%legend Comments
+%table.table.table-striped.table-condensed
+  - @task.comments.each do |c|
+    %tr
+      %td
+        = c.text
+        .float-left
+          %em
+            = c.created_at
+            \&nbsp;by&nbsp
+            = c.user.email
+
+= simple_form_for Comment.new do |f|
+  = f.input :user_id, as: :hidden, input_html: {value: current_user.id}
+  = f.input :task_id, as: :hidden, input_html: {value: @task.id}
+  = f.input :text, as: :text, input_html: {rows: 3}, label: false
+  = f.button :submit, value: 'Add' 
 
 .form-actions
   = link_to t('.back', :default => t("helpers.links.back")), tasks_path, :class => 'btn'
