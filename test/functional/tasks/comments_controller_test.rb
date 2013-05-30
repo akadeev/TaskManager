@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CommentsControllerTest < ActionController::TestCase
+class Tasks::CommentsControllerTest < ActionController::TestCase
   setup do
     @user = create :user
     sign_in @user
@@ -12,7 +12,7 @@ class CommentsControllerTest < ActionController::TestCase
   test "should create comment" do
     attrs = attributes_for :comment, user_id: @user.id, task_id: @task.id
 
-    post :create, comment: attrs
+    post :create, task_id: @task.id, comment: attrs
     assert_response :redirect
 
     comment = Comment.find_by_text(attrs[:text])
@@ -21,7 +21,7 @@ class CommentsControllerTest < ActionController::TestCase
 
   test "should delete comment" do
     assert_difference('Comment.count', -1) do
-      delete :destroy, id: @comment.id
+      delete :destroy, task_id: @comment.task.id, id: @comment.id
     end
     assert_response :redirect
 

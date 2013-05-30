@@ -1,6 +1,7 @@
-class CommentsController < ApplicationController
+class Tasks::CommentsController < Tasks::ApplicationController
   def create
-    @comment = Comment.new(params[:comment])
+    @comment = current_task.comments.new(params[:comment])
+    @comment.user = current_user
     task = @comment.task
     if @comment.save
       redirect_to task, notice: 'Comment was successfully created.'

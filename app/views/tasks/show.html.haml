@@ -35,11 +35,9 @@
             \&nbsp;by&nbsp
             = c.user.email
 
-= simple_form_for Comment.new do |f|
-  = f.input :user_id, as: :hidden, input_html: {value: current_user.id}
-  = f.input :task_id, as: :hidden, input_html: {value: @task.id}
+= simple_form_for [@task, @comment] do |f|
   = f.input :text, as: :text, input_html: {rows: 3}, label: false
-  = f.button :submit, value: 'Add' 
+  = f.button :submit
 
 .form-actions
   = link_to t('.back', :default => t("helpers.links.back")), tasks_path, :class => 'btn'
