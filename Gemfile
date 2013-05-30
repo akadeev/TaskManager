@@ -16,6 +16,9 @@ gem 'therubyracer'
 gem 'coveralls', require: false
 gem 'newrelic_rpm'
 gem 'factory_girl_rails'
+gem 'airbrake'
+gem 'state_machine'
+gem 'ransack'
 
 # Gems used only for assets and not required
 # in production environments by default.
