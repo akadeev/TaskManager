@@ -20,11 +20,9 @@ class Tasks::CommentsControllerTest < ActionController::TestCase
   end
 
   test "should delete comment" do
-    assert_difference('Comment.count', -1) do
-      delete :destroy, task_id: @comment.task.id, id: @comment.id
-    end
+    delete :destroy, task_id: @comment.task.id, id: @comment.id
+    
     assert_response :redirect
-
     assert !Comment.exists?(@comment)
   end
 end

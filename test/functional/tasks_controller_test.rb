@@ -49,11 +49,9 @@ class TasksControllerTest < ActionController::TestCase
   end
 
   test "should destroy task" do
-    assert_difference('Task.count', -1) do
-      delete :destroy, id: @task.id
-    end
+    delete :destroy, id: @task.id
+    
     assert_response :redirect
-
     assert !Task.exists?(@user)
   end
 end

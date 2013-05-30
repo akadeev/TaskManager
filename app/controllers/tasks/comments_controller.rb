@@ -1,6 +1,6 @@
 class Tasks::CommentsController < Tasks::ApplicationController
   def create
-    @comment = current_task.comments.new(params[:comment])
+    @comment = current_task.comments.build(params[:comment])
     @comment.user = current_user
     task = @comment.task
     if @comment.save

@@ -47,11 +47,9 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should destroy user" do
-    assert_difference('User.count', -1) do
-      delete :destroy, id: @user.id
-    end
-    assert_response :redirect
+    delete :destroy, id: @user.id
 
+    assert_response :redirect
     assert !User.exists?(@user)
   end
 end
