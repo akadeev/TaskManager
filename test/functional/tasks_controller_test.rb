@@ -19,7 +19,7 @@ class TasksControllerTest < ActionController::TestCase
   end
 
   test "should create task" do
-    attrs = attributes_for :task
+    attrs = attributes_for :task, owner_id: @user.id, performer_id: @user.id
 
     post :create, task: attrs
     assert_response :redirect

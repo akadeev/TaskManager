@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :comment do
     text "MyText"
-    user
-    task
+    association :user
+    association :task
   end
 end
