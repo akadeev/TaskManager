@@ -20,7 +20,8 @@
   %body
     .navbar
       .navbar-inner
-        %strong.brand Task Manager
+        %strong.brand 
+          = link_to "Task Manager", root_path
         %ul.nav              
         - unless signed_in?
           %li= link_to "Log in", new_session_path

@@ -1,6 +1,8 @@
 class TasksController < ApplicationController
   def index
-    @tasks = Task.all
+    @search = Task.search(params[:q])
+    @tasks = @search.result(:distinct => true)
+    @search.build_condition
   end
 
   def show
