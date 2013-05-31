@@ -5,10 +5,10 @@ class Web::SessionsControllerTest < ActionController::TestCase
     @user = create :user
   end
   
-    test "should get new" do
-      get :new
-      assert_response :success
-    end
+  test "should get new" do
+    get :new
+    assert_response :success
+  end
 
   test "should log in" do
     attrs = {email: @user.email, password: "test"}
