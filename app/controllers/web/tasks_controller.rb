@@ -1,4 +1,4 @@
-class TasksController < ApplicationController
+class Web::TasksController < Web::ApplicationController
   def index
     @search = Task.search(params[:q])
     @tasks = @search.result(:distinct => true)

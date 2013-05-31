@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class Tasks::CommentsControllerTest < ActionController::TestCase
+class Web::Tasks::CommentsControllerTest < ActionController::TestCase
   setup do
     @user = create :user
     sign_in @user

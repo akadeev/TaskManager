@@ -1,4 +1,4 @@
-class Tasks::CommentsController < Tasks::ApplicationController
+class Web::Tasks::CommentsController < Web::Tasks::ApplicationController
   def create
     @comment = current_task.comments.build(params[:comment])
     @comment.user = current_user

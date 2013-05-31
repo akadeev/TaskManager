@@ -1,11 +1,13 @@
 TaskManager::Application.routes.draw do
-  resources :tasks do
-    scope module: :tasks do
-      resources :comments, only: [:create, :destroy]
+  scope module: :web do
+    resources :tasks do
+      scope module: :tasks do
+        resources :comments, only: [:create, :destroy]
+      end
     end
-  end
-  resources :users
-  resources :sessions, only: [:new, :create, :destroy]
+    resources :users
+    resources :sessions, only: [:new, :create, :destroy]
 
-  root :to => "tasks#index"
+    root :to => "tasks#index"
+  end
 end

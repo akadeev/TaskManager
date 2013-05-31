@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SessionsControllerTest < ActionController::TestCase
+class Web::SessionsControllerTest < ActionController::TestCase
 	include AuthHelper
 
 	setup do
