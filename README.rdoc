@@ -4,8 +4,8 @@
 
 Heroku: http://intense-brushlands-8526.herokuapp.com/
 
->Registered users:
->
->>1. login: *admin@mail.com* password: *test*
->>2. login: *adam@mail.com* password: *test*
->>3. login: *akadeev@mail.com* password: *test*
+Registered users:<br><br>
+
+1. login: 'admin@mail.com' password: 'test'<br>
+2. login: 'adam@mail.com' password: 'test'<br>
+3. login: 'akadeev@mail.com' password: 'test'<br>
