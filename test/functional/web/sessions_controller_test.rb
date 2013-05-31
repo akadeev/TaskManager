@@ -1,8 +1,6 @@
 require 'test_helper'
 
 class Web::SessionsControllerTest < ActionController::TestCase
-	include AuthHelper
-
 	setup do
 		@user = create :user
 	end
