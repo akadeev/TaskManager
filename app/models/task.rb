@@ -1,4 +1,5 @@
 class Task < ActiveRecord::Base
+
   attr_accessible :description, :title, :description, :owner_id, :performer_id, :state_event
    
   belongs_to :owner, class_name: "User"
@@ -25,4 +26,5 @@ class Task < ActiveRecord::Base
       transition [:finished] => :rejected
     end
   end
+  
 end

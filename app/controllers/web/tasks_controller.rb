@@ -1,7 +1,7 @@
 class Web::TasksController < Web::ApplicationController
   def index
-    @search = Task.search(params[:q])
-    @tasks = @search.result(:distinct => true)
+    @search = Task.ransack(params[:q])
+    @tasks = @search.result(:distinct => true).page(params[:page]).per(configus.pagination.tasks_per_page)
     @search.build_condition
   end
 

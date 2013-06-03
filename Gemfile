@@ -17,6 +17,9 @@ gem 'factory_girl_rails'
 gem 'airbrake'
 gem 'state_machine'
 gem 'ransack'
+gem 'usefull_scopes'
+gem 'configus'
+gem 'kaminari-bootstrap'
 
 # Gems used only for assets and not required
 # in production environments by default.

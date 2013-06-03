@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  include UsersRepository
+
   attr_accessible :email, :password
   validates :password_digest, :presence => true
   

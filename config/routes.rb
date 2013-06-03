@@ -1,4 +1,5 @@
 TaskManager::Application.routes.draw do
+
   scope module: :web do
     resources :tasks do
       scope module: :tasks do
@@ -10,4 +11,5 @@ TaskManager::Application.routes.draw do
 
     root :to => "tasks#index"
   end
+  
 end
