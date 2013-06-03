@@ -6,7 +6,7 @@ TaskManager::Application.routes.draw do
       end
     end
     resources :users
-    resources :sessions, only: [:new, :create, :destroy]
+    resource :session, only: [:new, :create, :destroy]
 
     root :to => "tasks#index"
   end

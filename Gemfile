@@ -11,7 +11,6 @@ gem 'bcrypt-ruby'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'less-rails'
-gem 'therubyracer'
 gem 'coveralls', require: false
 gem 'newrelic_rpm'
 gem 'factory_girl_rails'
@@ -26,7 +25,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 end
