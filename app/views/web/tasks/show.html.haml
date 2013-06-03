@@ -35,7 +35,7 @@
             \&nbsp;by&nbsp
             = c.user.email   
       %td
-        = link_to "Delete comment", task_comment_path(@task, c), :method => :delete, :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-mini btn-danger'
+        = link_to t('comment.delete'), task_comment_path(@task, c), :method => :delete, :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-mini btn-danger'
 
 = simple_form_for [@task, @comment] do |f|
   = f.input :text, as: :text, input_html: {rows: 3}, label: false

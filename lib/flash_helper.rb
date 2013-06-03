@@ -2,7 +2,6 @@ module FlashHelper
   
   def flash_error(options = {})
     msg = options[:message] || :error
-    now = options[:now] || true
     flash_notice message: msg, kind: :error, now: now
   end
 
@@ -11,11 +10,7 @@ module FlashHelper
     msg = flash_translate msg if msg.is_a?(Symbol)
     kind = options[:kind] || :notice
 
-    if options[:now]
-      flash.now[kind] = msg
-    else
-      flash[kind] = msg
-    end
+    flash[kind] = msg
   end
 
   def flash_translate(key)

@@ -22,9 +22,11 @@ class Web::TasksController < Web::ApplicationController
     @task = Task.new(params[:task])
     
     if @task.save
-      redirect_to @task, notice: 'Task was successfully created.'
+      redirect_to @task
+      flash_notice message: t('task.create.success')
     else
       render action: "new"
+      flash_error message: t('task.create.error')
     end
   end
 
@@ -32,9 +34,11 @@ class Web::TasksController < Web::ApplicationController
     @task = Task.find(params[:id])
 
     if @task.update_attributes(params[:task])
-      redirect_to root_path, notice: 'Task was successfully updated.'
+      redirect_to root_path
+      flash_notice message: t('task.update.success')
     else
       render action: "edit"
+      flash_error message: t('task.update.success')
     end
   end
 

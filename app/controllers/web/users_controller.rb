@@ -21,9 +21,10 @@ class Web::UsersController < Web::ApplicationController
     
     if @user.save
       redirect_to @user
-      flash_notice message: 'User was successfully created.'
+      flash_notice message: t('user.create.success')
     else
       render action: "new"
+      flash_error message: t('user.create.error')
     end
   end
 
@@ -31,9 +32,11 @@ class Web::UsersController < Web::ApplicationController
     @user = User.find(params[:id])
     
     if @user.update_attributes(params[:user])
-      redirect_to @user, notice: 'Task was successfully updated.'
+      redirect_to @user
+      flash_notice message: t('user.update.success')
     else
       render action: "edit"
+      flash_notice message: t('user.update.error')
     end
   end
 

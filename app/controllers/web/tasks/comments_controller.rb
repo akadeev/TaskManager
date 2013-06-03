@@ -3,10 +3,11 @@ class Web::Tasks::CommentsController < Web::Tasks::ApplicationController
     @comment = current_task.comments.build(params[:comment])
     @comment.user = current_user
     task = @comment.task
+    redirect_to task
     if @comment.save
-      redirect_to task, notice: 'Comment was successfully created.'
+      flash_notice message: t('comment.create.success')
     else
-      redirect_to task
+      flash_error message: t('comment.create.error')
     end
   end
 
