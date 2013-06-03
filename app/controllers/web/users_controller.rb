@@ -1,6 +1,6 @@
 class Web::UsersController < Web::ApplicationController
   def index
-    @users = User.all
+    @users = User.scoped
   end
 
   def show
