@@ -10,8 +10,6 @@ gem 'haml-rails'
 gem 'bcrypt-ruby'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
-gem 'less-rails'
-gem 'coveralls', require: false
 gem 'newrelic_rpm'
 gem 'factory_girl_rails'
 gem 'airbrake'
@@ -31,6 +29,14 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end
+
+group :test do
+  gem 'coveralls', require: false
+  gem 'factory_girl_rails'
+  gem 'turn'
+  gem 'tconsole'
+  gem "rake"
 end
 
 gem 'jquery-rails'
