@@ -23,10 +23,10 @@ class Web::TasksController < Web::ApplicationController
     
     if @task.save
       redirect_to @task
-      flash_notice message: t('task.create.success')
+      flash_notice
     else
       render action: "new"
-      flash_error message: t('task.create.error')
+      flash_error
     end
   end
 
@@ -35,10 +35,10 @@ class Web::TasksController < Web::ApplicationController
 
     if @task.update_attributes(params[:task])
       redirect_to root_path
-      flash_notice message: t('task.update.success')
+      flash_notice
     else
       render action: "edit"
-      flash_error message: t('task.update.success')
+      flash_error
     end
   end
 

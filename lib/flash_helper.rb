@@ -2,7 +2,7 @@ module FlashHelper
   
   def flash_error(options = {})
     msg = options[:message] || :error
-    flash_notice message: msg, kind: :error, now: now
+    flash_notice message: msg, kind: :error
   end
 
   def flash_notice(options = {})

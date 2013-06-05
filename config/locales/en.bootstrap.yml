@@ -15,3 +15,5 @@ en:
       save: "Save"
       new: "New"
       delete: "Delete"
+    comments:
+      show: "Show comments"

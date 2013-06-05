@@ -5,9 +5,9 @@ class Web::Tasks::CommentsController < Web::Tasks::ApplicationController
     task = @comment.task
     redirect_to task
     if @comment.save
-      flash_notice message: t('comment.create.success')
+      flash_notice
     else
-      flash_error message: t('comment.create.error')
+      flash_error
     end
   end
 

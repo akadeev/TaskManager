@@ -1,26 +1,25 @@
 # Sample localization file for English. Add more files in this directory for other locales.
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  comment:
-    delete: "Delete comment"
-  hello: "Hello world"
+  flash:
+    controllers:
+      web:
+        tasks:
+          comments:
+            create:
+              notice: "Comment was successfully created."
+              error: "Failed to create comment."
+          create:
+            notice: "Task was successfully created."
+            error: "Failed to create task."
+          update:
+            notice: "Task was successfully updated."
+            error: "Failed to update task."
+        users:
+          create:
+            notice: "User was successfully created."
+            error: "Failed to create user."
+          update:
+            notice: "User was successfully updated."
+            error: "Failed to update user."
   log_in: "Login"
-  user:
-    create:
-      success: "User was successfully created."
-      error: "Failed to create user."
-    update:
-      success: "User was successfully updated."
-      error: "Failed to update user."
-  task:
-    create:
-      success: "Task was successfully created."
-      error: "Failed to create task."
-    update:
-      success: "Task was successfully updated."
-      error: "Failed to update task."
-  comment:
-    create:
-      success: "User was successfully created."
-      error: "Failed to create user."
