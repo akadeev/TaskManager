@@ -2,11 +2,14 @@ class Web::SessionsController < Web::ApplicationController
   skip_before_filter :authenticate_user!
 
   def new
+    @session = SessionEditType.new
   end
 
   def create
-    user = User.find_by_email(params[:email])
-    if user && user.authenticate(params[:password])
+    @session = SessionEditType.new(params[:session_edit_type])
+
+    user = @session.user
+    if @session.valid?
       sign_in(user)
       redirect_to root_url
     else

@@ -3,6 +3,5 @@ class UserEditType < User
 
   attr_accessible :email
 
-  validates :email, :presence => true
   validates :password, :presence => true
 end

@@ -1,9 +1,6 @@
 %h1 Log in
-= form_tag session_path do
-  .field
-    = label_tag :email
-    = text_field_tag :email, params[:email]
-  .field
-    = label_tag :password
-    = password_field_tag :password
-  .actions= submit_tag t('log_in')
+= simple_form_for @session, url: session_path do |f|
+  = f.input :email
+  = f.input :password
+  .form-actions
+    = f.button :submit, :value => t('.login'), :class => 'btn-primary'

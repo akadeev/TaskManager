@@ -12,15 +12,15 @@ class Web::SessionsControllerTest < ActionController::TestCase
 
   test "should log in" do
     attrs = {email: @user.email, password: "test"}
-    post :create, attrs
+    post :create, session_edit_type: attrs
     assert_response :redirect
     assert signed_in?
   end
 
   test "should delete destroy" do
     sign_in @user
-      delete :destroy, id: @user.id
-      assert_response :redirect
-      assert !signed_in?
+    delete :destroy, id: @user.id
+    assert_response :redirect
+    assert !signed_in?
   end
 end

@@ -22,4 +22,15 @@ en:
           update:
             notice: "User was successfully updated."
             error: "Failed to update user."
-  log_in: "Login"
+  web:
+    sessions:
+      new:
+        login: "Log in"
+        ru:
+  activemodel:
+    errors:
+      models:
+        session_edit_type:
+          attributes:
+            email:
+              user_or_password_invalid: 'Email и/или пароль неверны'
