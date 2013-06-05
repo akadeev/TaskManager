@@ -9,15 +9,15 @@ class Web::UsersController < Web::ApplicationController
   end
 
   def new
-    @user = User.new
+    @user = UserEditType.new
   end
 
   def edit
-    @user = User.find(params[:id])
+    @user = UserEditType.find(params[:id])
   end
 
   def create
-    @user = User.new(params[:user])
+    @user = UserEditType.new(params[:user])
     
     if @user.save
       redirect_to @user
@@ -29,7 +29,7 @@ class Web::UsersController < Web::ApplicationController
   end
 
   def update
-    @user = User.find(params[:id])
+    @user = UserEditType.find(params[:id])
     
     if @user.update_attributes(params[:user])
       redirect_to @user
