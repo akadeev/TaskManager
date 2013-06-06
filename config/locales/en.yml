@@ -33,4 +33,4 @@ en:
         session_edit_type:
           attributes:
             email:
-              user_or_password_invalid: 'Email и/или пароль неверны'
+              user_or_password_invalid: 'Wrong email or password'

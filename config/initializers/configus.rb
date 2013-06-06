@@ -2,7 +2,7 @@ Configus.build Rails.env do
 
   env :production do
     pagination do
-      tasks_per_page 2
+      tasks_per_page 10
     end
   end
 
